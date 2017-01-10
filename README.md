@@ -1,2 +1,2 @@
 # cryptography
-Various cryptographic algorithms
+Collection of various cryptographic algorithms, written in Python.
