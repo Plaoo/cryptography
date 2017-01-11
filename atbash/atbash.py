@@ -29,17 +29,17 @@ from string import ascii_letters
 def how_use():
 	
 	
-	print("example: atbash.py hello world /n Result: svool dliow")
+	print("example: atbash.py hello world \nResult: svool dliow")
 
 def atbash(txt):
 	dest = []
-	ascii_loweruni = unicode(ascii_lowercase)
-	ascii_upperuni = unicode(ascii_uppercase)
-	ascii_letuni = unicode(ascii_letters)
+	ascii_loweruni = ascii_lowercase
+	ascii_upperuni = ascii_uppercase
+	ascii_letuni = ascii_letters
 	#reverse alphabet
-	ascii_lowerunirev = unicode(ascii_lowercase[::-1])
-	ascii_upperunirev = unicode(ascii_uppercase[::-1])
-	ascii_letunirev = unicode(ascii_letters[::-1])
+	ascii_lowerunirev = ascii_lowercase[::-1]
+	ascii_upperunirev = ascii_uppercase[::-1]
+	ascii_letunirev = ascii_letters[::-1]
 	
 	
 	for mov in txt:
